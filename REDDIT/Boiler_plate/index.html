@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<title>reddit</title>
+
+		<!-- Font Family -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+		<!-- Font awesome for icons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/style.css">
+	</head>
+  <body>
+		<nav class="navbar navbar-dark bg-primary mb-3">
+			<div class="container">
+				<span class="navbar-brand">reddit</span>
+			</div>
+		</nav>
+		<div id="search-container" class="container">
+			<div id="search" class="card card-body bg-light mb-2">
+				<h4>Search Reddit</h4>
+				<form id="search-form">
+					<div class="form-group">
+						<input type="text" id="search-input" class="form-control mb-3" placeholder="Search Term...">
+					</div>
+					<div class="form-check form-check-inline">
+						Sort By:
+						<input class="form-check-input ml-2" type="radio" name="sortby" value="relevance" checked>
+						<label class="form-check-label">
+							Relevance
+						</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="sortby" value="new">
+						<label class="form-check-label">
+							Latest
+						</label>
+					</div>
+					<h5 class="mt-2">Limit: </h5>
+					<div class="form-group">
+						<select name="limit" id="limit" class="form-control">
+							<option value="5">5</option>
+							<option value="10">10</option>
+							<option value="25" selected>25</option>
+							<option value="50">50</option>
+							<option value="100">100</option>
+						</select>
+					</div>
+					<button type="submit" class="btn btn-dark btn-block mt-4">Search</button>
+				</form>
+			</div>
+			<div id="results"></div>
+		</div>
+    <script type="text/javascript" src="./dist/webpack.bundel.js"></script> 
+  </body>
+</html>

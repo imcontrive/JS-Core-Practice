@@ -1,0 +1,10 @@
+.delete {
+  padding-left: 10px;
+  color: brown;
+}
+.delete:hover {
+  font-size: 20px;
+}
+ul li {
+  list-style: none;
+}

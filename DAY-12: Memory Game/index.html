@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<title>Memory Game</title>
+
+		<!-- Font Family -->
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
+
+		<!-- Font awesome for icons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+		<!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/style.css"> 
+	</head>
+  <body>
+		<main class="wrapper">
+			<section class="game-header">
+				<h1>Memory Game</h1>
+				<!-- SCORE Board -->
+				<section class="score-board">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<span class="moves"> 0 </span>Moves
+					</ul>
+					<section class="reset-box">
+						<div class="timer">0 mins 0 secs</div>
+						<!-- <li class = "icons"><i class="fa fa-repeat"></i></li> -->
+					</section>
+				</section>
+			</section>
+			<section class="memory-game">
+				<div class="memory-card" data-framework="fa-gem">
+					<!-- <img class="front-face" src="./assets/media/orange.jpeg" alt="Orange" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge"/> -->
+					<li class="front-face" alt="JS Badge"><i class="icons fas fa-gem" ></i></li>
+					<!-- <li class="back-face"></li> -->
+				</div>
+				<div class="memory-card" data-framework="fa-bicycle">
+					<!-- <img class="front-face" src="./assets/media/tomato.jpeg" alt="tomato" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					
+					<li class="front-face" alt="fa-bicycle"> <i class="icons fa fa-bicycle"></i></li>
+				</div>
+		
+				<div class="memory-card" data-framework="fa-diamond">
+					<!-- <img class="front-face" src="./assets/media/apple.jpg" alt="Apple" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-gem"><i class="icons fas fa-gem"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-bomb">
+					<!-- <img class="front-face" src="./assets/media/mango.jpeg" alt="mango" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-bomb"><i class="icons fa fa-bomb"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-bolt">
+					<!-- <img class="front-face" src="./assets/media/orange.jpeg" alt="Orange" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge"/> -->
+					<li class="front-face" alt="fa-bolt"><i class="icons fa fa-bolt"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-bolt">
+					<!-- <img class="front-face" src="./assets/media/tomato.jpeg" alt="tomato" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-bolt"> <i class="icons fa fa-bolt"></i></li>
+				</div>
+			
+				<div class="memory-card" data-framework="fa-cube">
+					<!-- <img class="front-face" src="./assets/media/apple.jpg" alt="Apple" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-cube"><i class="icons fa fa-cube"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-paper-plane-o">
+					<!-- <img class="front-face" src="./assets/media/mango.jpeg" alt="mango" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-paper-plane"><i class="icons fas fa-paper-plane"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-leaf">
+					<!-- <img class="front-face" src="./assets/media/orange.jpeg" alt="Orange" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge"/> -->
+					<li class="front-face" alt="fa-leaf"><i class="icons fa fa-leaf"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-anchor">
+					<!-- <img class="front-face" src="./assets/media/tomato.jpeg" alt="tomato" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-anchor"> <i class="icons fa fa-anchor"></i></li>
+				</div>
+				
+				<div class="memory-card" data-framework="fa-paper-plane-o">
+					<!-- <img class="front-face" src="./assets/media/apple.jpg" alt="Apple" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-paper-plane"><i class="icons fas fa-paper-plane"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-bicycle">
+					<!-- <img class="front-face" src="./assets/media/mango.jpeg" alt="mango" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-bicycle"><i class="icons fa fa-bicycle"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-cube">
+					<!-- <img class="front-face" src="./assets/media/orange.jpeg" alt="Orange" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge"/> -->
+					<li class="front-face" alt="fa-cube"><i class="icons fa fa-cube"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-anchor">
+					<!-- <img class="front-face" src="./assets/media/tomato.jpeg" alt="tomato" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-anchor"><i class="icons fa fa-anchor"></i></li>
+				</div>
+				
+				<div class="memory-card" data-framework="fa-diamond">
+					<!-- <img class="front-face" src="./assets/media/apple.jpg" alt="Apple" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-gem"><i class="icons fas fa-gem"></i></li>
+				</div>
+				<div class="memory-card" data-framework="fa-leaf">
+					<!-- <img class="front-face" src="./assets/media/mango.jpeg" alt="mango" /> -->
+					<!-- <img class="back-face" src="./assets/media/images.png" alt="JS Badge" /> -->
+					<li class="front-face" alt="fa-leaf"> <i class="icons fa fa-leaf"></i></li>
+				</div>
+			</section>
+			<!-- CONGRATULATION POP_UP -->
+			<!-- <div id="popup1" class="overlay">
+				<div class="popup">
+					<h2>Congratulations 🎉</h2>
+					<a class="close" href="#">×</a>
+					<div class="content-1">
+						Congratulations you're a winner 🎉🎉
+					</div>
+					<div class="content-2">
+						<p>You made <span id="finalMove"> </span> moves </p>
+						<p>in <span id="totalTime"> </span> </p>
+						<p>Rating:  <span id="starRating"></span></p>
+					</div>
+					<button id="play-again" onclick="playAgain()">
+						Play again 😄
+					</button>
+				</div>
+			</div> -->
+		</main>
+    <script type="text/javascript" src="main.js"></script> 
+  </body>
+</html>

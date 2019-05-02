@@ -1,0 +1,103 @@
+body {
+	background: #1aa55b;
+}
+
+.grid {
+	width: 600px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+}
+
+.grid h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 50px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#score {
+	text-align: center;
+	font-size: 30px;
+}
+
+.grid #question {
+	font-family: "monospace";
+	font-size: 30px;
+	/* color: #5A6772; */
+}
+
+.buttons {
+	margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+	background-color:#ffffff ;
+	width: 250px;
+	font-size: 20px;
+	color:black;
+	border: 1px solid #1D3C6A;
+	border-radius: 50px;
+	margin: 10px 40px 10px 0px;
+	padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+	outline: 0;
+}
+
+#progress {
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+#name {
+	text-align: center;
+	font-size: 26px;
+	font-style: italic;
+	font-weight: 700;
+	
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+.links {
+text-align: center;
+}
+.links li {
+	display:inline-flex;
+	margin:0 5px;
+}
+.fab {
+	font-size: 3.4rem;	
+	display:inline-block;
+	color:purple;
+}
+/* .fa-facebook-square {
+	color: #2daae4;
+}
+.fa-twitter-square {
+	color: #2daae4;
+}
+/* .fa-dribbble-square {
+	color: #c4376b;
+} */
+.fa-tumblr-square {
+	color: purple;
+}
+.fa-linkedin {
+	color: purple;
+} 

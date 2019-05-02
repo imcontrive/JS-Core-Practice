@@ -1,0 +1,10 @@
+ body {
+	background: cyan;
+} 
+h1 {
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	padding: 180px;
+}

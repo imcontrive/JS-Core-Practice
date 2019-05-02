@@ -1,0 +1,40 @@
+.wrapper{
+	max-width: 768px;
+	width: 100%;
+	margin: 0 auto;
+}
+body{
+	background: #EEEEEE;
+	font-size: 20px;
+	font-family: 'Monospace', Serif;
+}
+.input{
+	height: 3.2rem;
+	font-size: 1.2rem;
+	padding-left: 12px;
+	background: transparent;
+	outline: 0;
+	border: 0;
+}
+.btn{
+	margin: 5px;
+	border-radius: 5px;
+	background: #EEEEEE;
+	font-size: 1rem;
+	padding: 0.5rem;
+	outline: 0;
+	border: 0;
+}
+.tag-container {
+	background: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.test{
+	display: inline-block;
+}
+.delete {
+	color: red;
+	font-weight: bold;
+	margin-left: 3px;
+}

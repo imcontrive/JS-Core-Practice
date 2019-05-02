@@ -1,0 +1,134 @@
+/* Importing Normalize css */
+/* @import url("normalize.css"); */
+
+
+/* BASE CSS */
+* {
+  box-sizing: border-box;
+  line-height: 1.2;
+  font-size: 17px;
+	list-style-type: none; 
+}
+/* Grid */
+.col {
+	padding-top: 15%;
+}
+.col-1 {
+	width: 8.3333%;
+  float: right;
+  background: gray;
+  height: 275px;
+}
+.col-2 {
+	width: 16.6667%;
+	float: left;
+}
+.col-3 {
+	width: 25%;
+	float: left;
+}
+.col-4 {
+	width: 33.3333%;
+	float: left;
+}
+.col-5 {
+  width: 41.6667%;
+	float: right;
+}
+.col-6 {
+	width: 50%;
+	float: left;
+}
+.col-7 {
+	width: 58.3333%;
+	float: left;
+}
+.col-8 {
+	width: 66.6667%;
+	float: left;
+}
+.col-9 {
+	width: 75%;
+	float: left;
+}
+.col-10 {
+	width: 83.3333%;
+	float: left;
+}
+.col-11 {
+	width: 91.6667%;
+	float: left;
+}
+.col-12 {
+	width: 100%;
+	float: left;
+}
+
+/******* Clearfix *****/
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/* CUSTOM FOR RANDOM QUOTES */
+body {
+	/* background: url("./../img/flw.jpg" ); */
+	font-family: Open Sans;
+
+}
+#txt {
+	font-size: 3rem;
+	position: fixed;
+	/* top: 2%; */
+	/* left: 2%; */
+	color: white;
+}
+
+b {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+	position: fixed;
+	top: 2%;
+	left: 35%;
+	text-transform: capitalize;
+}
+.knowledge-base {
+  max-width: 768px;
+  width: 100%;
+  max-height: 275px;
+  height: 100%;
+  margin: 0 auto;
+}
+.quesText {
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  border-radius : 12px;
+  margin-top: 35%;
+}
+p {
+  font-size: 1.6rem;
+}
+.fa-clipboard {
+  color: #f7f3f2;
+  font-size: 3rem;
+  padding-left: 10px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+span {
+  font-size: 1.25rem;
+}
+.fa-bookmark {
+	font-size: 2rem;
+	position: relative;
+	left: 112%;
+	color: white;
+	margin-top: 1%;
+}

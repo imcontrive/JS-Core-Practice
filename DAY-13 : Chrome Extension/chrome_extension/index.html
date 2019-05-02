@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<title>Chrome-Extension</title>
+
+		<!-- Font Family -->
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
+		<!-- Font awesome for icons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
+  <body>
+		<!-- 30Sec of Knowledge -->
+		<div id="txt"></div>
+		<section class="knowledge-base">
+			<ul class ="quesText">
+				<div class ="ansText clearfix">
+					<li class="container col-10">
+						<i class="fas fa-bookmark"></i>
+						<p id ="cpy"></i></p>
+						<span id="cpy"></span>
+					</li>
+					<div class="QuestionTag "><i onclick="copyToClipboard(this.textContent)" class=" col col-1 far fa-clipboard"></i></div>
+				</div>
+			</ul>
+		</section>
+		<!-- Linking the Script File -->
+		<script type="text/javascript" src="./js/main.js"></script>
+		<!-- <script type="text/javascript" src="./js/clock.js"></script> -->
+  </body>
+</html>
+
