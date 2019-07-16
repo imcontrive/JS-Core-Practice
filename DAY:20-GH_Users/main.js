@@ -6,7 +6,7 @@ function view(data){
   const html = `<div class= "container">
     <img src="${data.avatar_url}"></img>
     <h1>${data.name}</h1>
-    <p>${data.bio.trim() || "Atleat Update your Bio."}</p>
+     <p>${data.bio.trim()|| "Atleat Update your Bio."}</p>*/
     <button type="button" onclick="text()">Followers</button>
     <button type="button" onclick="alert(${data.following})">Following</button>
     </div>`
