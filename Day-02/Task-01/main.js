@@ -3,9 +3,9 @@
 var password = prompt('Enter your password');
 var confirmPassword = prompt('confirm password');
 if (password === confirmPassword) {
-    alert("Password Validated");
+    alert("Password Matched");
 } else {
-    alert("Password don't match");
+    alert("Plz Enter a valid Password");
 }
 
 ( alert(1) || 2 || alert(3) );
@@ -14,10 +14,10 @@ if (password === confirmPassword) {
 // Create a function which takes two input and (a,b) and display the sum, sub, multiplication, devision of those two numbers.
 
 function operation(x, y) {
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
+    console.log(x + y);
+    console.log(x - y);
+    console.log(x * y);
+    console.log(x / y);
 }
 operation(7, 9);
 
@@ -313,4 +313,3 @@ for(var i = 1; i<=10; i++) {
   }
 }
 
-/*_____________________________________________________________________________________________________________________________*/
