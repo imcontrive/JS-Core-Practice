@@ -37,6 +37,7 @@ function celsiusToFahrenheit(temp) {
     console.log(`${celcius}°C is ${fahrenheit}°F`);
 }
 celsiusToFahrenheit(35);
+
 function fahrenheitToCelsius(temp) {
     fahrenheit += (celcius * 1.8) + 32;
     console.log(`${fahrenheit}°F is ${celcius}°C`);
@@ -95,13 +96,12 @@ function checkAge(age) {
 
 // Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
    
-function pow(x,n)
-{
-let result=1;
-for(let i=0;i<n;i++) {
-    result*= x;
+function pow(x,n){
+    let result=1;
+    for(let i=0;i<n;i++) {
+        result *= x;
     }
-return result;
+    return result;
 }
 
 //{ Enter a string and the program counts the number of vowels in the text.For added complexity have it report a sum of each vowel found.}
@@ -152,12 +152,19 @@ console.log(wordCount.length);
 var sum1 = '';
 var sum2 = '';
 for(var i=1; i<=10 ;i++){
-if(sum1.length <= 8){
-    if(sum1.length == 0) { sum1 = sum1 + i }
-    else sum1 = sum1 + ',' + i ;
-} else {
-    if(sum2.length == 0) { sum2 = sum2 + i }
-    else sum2 = sum2 + ',' + i ;
+    if(sum1.length <= 8){
+        if(sum1.length == 0){
+             sum1 = sum1 + i;
+        } else {
+            sum1 = sum1 + ',' + i ;
+        } 
+
+        if(sum2.length == 0) {
+            sum2 = sum2 + i 
+        }
+        else{
+            sum2 = sum2 + ',' + i ;
+        }
     }
 }
 console.log(sum1 + '\n' + sum2);
@@ -174,18 +181,20 @@ function computingSum(number){
     }
     return sum;
 }
+
 function computingProduct(number){
     for(var i=1;i<=number ; i++){
         product = product * i;
     }
     return product;
 }
+
 function computing(compute) {
-if (compute === computingSum()){
-    return computingSum();
-}else if (compute===computingProduct()){
-    return computingProduct();
-}
+    if (compute === computingSum()){
+        return computingSum();
+    }else if (compute===computingProduct()){
+        return computingProduct();
+    }
 }
 alert(computing(computingSum(number)));
 alert(computing(computingProduct(number)));
@@ -233,8 +242,8 @@ function printTable(num) {
     if (num > 25) {
         console.log(`Please input number under 25`);
     }else if(num<=25){
-    for (let i = 1; i <= 10; i++) {
-        console.log(num * i);
+        for (let i = 1; i <= 10; i++) {
+            console.log(num * i);
         }
     }   
 }
