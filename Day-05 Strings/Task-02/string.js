@@ -6,7 +6,7 @@ function chopString(string, number) {
   let numChunks = Math.ceil(string.length / number);
   let splitted =  Array(numChunks);
   for (let i = 0, j = 0; i < numChunks; i++, j += number) {
-       splitted[i] = string.substr(j, number);
+     splitted[i] = string.substr(j, number);
   }
   return splitted;
 }
@@ -21,7 +21,7 @@ function countOccur(string1, string2) {
    let splitted = string1.split(' ');
    splitted.forEach(element => {
        if (element.toLowerCase() == string2) {
-           count++;
+            count++;
        }
    });
    return count;
