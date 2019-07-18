@@ -51,7 +51,6 @@ function checkAge(age) {
     if (age > 18) {
     return true;
     } else {
-    // ...
     return confirm('Did parents allow you?');
     }
 }
@@ -107,6 +106,7 @@ return result;
 //{ Enter a string and the program counts the number of vowels in the text.For added complexity have it report a sum of each vowel found.}
 
 var enterString = prompt('Enter the string');
+
 function counts(vowels) {
     let numOfVowels = 0;
     for(var i=0; i<=enterString.length; i++) {
@@ -152,12 +152,12 @@ console.log(wordCount.length);
 var sum1 = '';
 var sum2 = '';
 for(var i=1; i<=10 ;i++){
-if(sum1.length <= 8){
-    if(sum1.length == 0) { sum1 = sum1 + i }
-    else sum1 = sum1 + ',' + i ;
-} else {
-    if(sum2.length == 0) { sum2 = sum2 + i }
-    else sum2 = sum2 + ',' + i ;
+    if(sum1.length <= 8){
+        if(sum1.length == 0) { sum1 = sum1 + i }
+        else sum1 = sum1 + ',' + i ;
+    } else {
+        if(sum2.length == 0) { sum2 = sum2 + i }
+        else sum2 = sum2 + ',' + i ;
     }
 }
 console.log(sum1 + '\n' + sum2);
@@ -174,18 +174,20 @@ function computingSum(number){
     }
     return sum;
 }
+
 function computingProduct(number){
     for(var i=1;i<=number ; i++){
         product = product * i;
     }
     return product;
 }
+
 function computing(compute) {
-if (compute === computingSum()){
-    return computingSum();
-}else if (compute===computingProduct()){
-    return computingProduct();
-}
+    if (compute === computingSum()){
+        return computingSum();
+    }else if (compute===computingProduct()){
+        return computingProduct();
+    }
 }
 alert(computing(computingSum(number)));
 alert(computing(computingProduct(number)));
@@ -216,7 +218,6 @@ console.log(checkNum(inputNum));
 let inputNum = Number(prompt('Enter a valid number'));
 var sum = 0; 
 function checkNum(inputNum) {
-
     for(let i = 0; i <= inputNum; i++) {
         if ( i % 5 === 0 || i % 7 === 0 ) {
             sum = sum + i;

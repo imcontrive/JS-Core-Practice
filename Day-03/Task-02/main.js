@@ -1,4 +1,4 @@
-// * Converts a number a string.
+// * Convert number into string.
 
 // 1.Function Decleration
 function convertToString(n) {
@@ -132,6 +132,7 @@ var multiplyTwoNumbers = (x, y) => {
  return x * y;
 };
 multiplyTwoNumbers(2, 3);
+
 // 4.Arrow Function without curly braces
 var addTwoNumbers = (x, y) => x * y;
 multiplyTwoNumbers(2, 3);
@@ -155,12 +156,14 @@ var multiplyTwoNumbers = (x, y) => {
  return x / y;
 };
 devideTwoNumbers(6, 3);
+
 // 4.Arrow Function without curly braces
 var addTwoNumbers = (x, y) => x / y;
 devideTwoNumbers(6, 3);
 
 
 //Ques-8 : Multiplies a number by itself.
+
 // 1.Function Decleration
 function multiplyByItself(x){
   return x**2;
@@ -178,6 +181,7 @@ var multiplyByItself = (x) => {
  return x**2;
 };
 multiplyByItself(6);
+
 // 4.Arrow Function without curly braces
 var  multiplyByItself = (x, y) => x**2 ;
 multiplyByItself(6, 3);
