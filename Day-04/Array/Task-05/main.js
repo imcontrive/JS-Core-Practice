@@ -132,7 +132,9 @@ var multiplyTwoNumbers = (x, y) => {
  return x * y;
 };
 multiplyTwoNumbers(2, 3);
+
 // 4.Arrow Function without curly braces
+
 var addTwoNumbers = (x, y) => x * y;
 multiplyTwoNumbers(2, 3);
 
@@ -239,6 +241,7 @@ let  isOdd = (n) => (n % 2 != 0) ? console.log(`true ` + ' ' + `${n}` + 'is odd'
 //Ques-17 : Returns a letter grade.
 
 // 1.Function Decleration
+
 function grade(score, total) {
   var percentage = (score * 100) / total;
   if (percentage >= 90 && percentage <= 100) {

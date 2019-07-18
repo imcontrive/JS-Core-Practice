@@ -108,9 +108,10 @@ console.log(favoriteRecipe.Ingredients);
 //"The Lord of the Rings" by J.R.R. Tolkien.'
 
 
-var books = [{title:'The Hobbit', author : 'J.R.R. Tolkien' , alreadyRead : true}, 
-{title:'The Lord of the Rings', author : 'J.R.R. Tolkien' , alreadyRead : false}];
+var books = [{title:'The Hobbit', author : 'J.R.R. Tolkien' , alreadyRead : true},{title:'The Lord of the Rings', author : 'J.R.R. Tolkien' , alreadyRead : false}];
+
 books.forEach(book => console.log(`${book.title} by ${book.author}`));
+
 books.forEach(book => {
   if(book.alreadyRead) {
     console.log(`you already read ${book.title} by ${book.author}`)
