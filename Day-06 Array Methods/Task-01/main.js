@@ -115,7 +115,7 @@ var newNum = numbers.toString();
 newNum = newNum.replace(12,1221);
 newNum = newNum.replace(18,1881);
 newNum = Number(newNum)
- console.log(newNum); 
+console.log(newNum); 
  //----->>>>>>>> alternate 
 var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 for(let i = 0; i < numbers.length; i++) {

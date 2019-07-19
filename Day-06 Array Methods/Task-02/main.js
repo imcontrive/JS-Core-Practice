@@ -57,7 +57,6 @@ var words2 = [
   'palace'
   ];
 function averageWordLength(words2) {
-  var count = 0;
   var sum = 0;
   var avr = 0;
   for(let i in words2) {

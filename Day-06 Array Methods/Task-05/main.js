@@ -30,6 +30,7 @@ var calcAvg = (numbers1)/(numbers1.length-1);
 console.log(calcAvg);
 
 //Write a function averageNumbers that receives an array of numbers2 and calculate the average of the numbers
+
 var numbers2 = [2, 6, 9, 10, 7, 4, 1, 9];
 function averageNumbers(numbers2) {
   var sum = 0, avr = 0;
@@ -56,6 +57,7 @@ var words2 = [
   'fuel',
   'palace'
   ];
+
 function averageWordLength(words2) {
   var count = 0;
   var sum = 0;

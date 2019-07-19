@@ -9,6 +9,7 @@ var words = [
   'orchard',
   'crackpot'
 ];
+
 function findLongestWord(words) {
  var sorted =  words.sort((a, b) => b.length > a.length);
  console.log(sorted)
